@@ -296,7 +296,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/Rectangle\ 2.png");
+  background-image: url("./images/Rectangle\ 2.png");
   background-repeat: no-repeat;
   background-position: bottom;
   gap: 177px;
