@@ -184,9 +184,9 @@ body {
   align-items: center;
 }
 .offer-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 120px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
 }
 .offer-column_1 {
   width: 393px;
@@ -227,6 +227,7 @@ body {
   box-sizing: border-box;
   border: 15px solid rgb(255, 0, 0);
   border-radius: 50%;
+  padding: 30px;
 }
 .offer-column_3 h2 {
   color: rgb(255, 0, 0);
@@ -296,7 +297,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./images/Rectangle\ 2.png");
+  background-image: url("./images/Rectangle 2.png");
   background-repeat: no-repeat;
   background-position: bottom;
   gap: 177px;
