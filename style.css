@@ -11,7 +11,7 @@ body {
   width: 1320px;
   height: 600px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -41,4 +41,208 @@ body {
   max-width: 632px;
   line-height: 95px;
   color: white;
+}
+.holiday {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+.holiday-container h2 {
+  color: rgb(255, 0, 0);
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.holiday-subtitle {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.holiday-title {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.party {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+.party-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.party_column-1 {
+  width: 642px;
+  height: 176px;
+}
+.party-container h2 {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+}
+.party-container p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.party-container button {
+  background: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 48px;
+  cursor: pointer;
+}
+.place {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
+}
+.place-container p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.des-title {
+  color: rgb(255, 0, 0);
+}
+.place-container button {
+  width: 167px;
+  height: 56px;
+  margin-left: 576px;
+  margin-right: 577px;
+  margin-top: 48px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 8px;
+  border: none;
+  letter-spacing: 0%;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 32px 16px 32px;
+  cursor: pointer;
+}
+.offer {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+.offer-column_1 {
+  width: 393px;
+  height: 255px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.offer-subtitle {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.offer-column_1 h2 {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 22px;
+}
+.offer-des {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.offer-column_2 {
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+}
+.offer-column_3 h2 {
+  color: rgb(255, 0, 0);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.des-2 {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 46px;
 }
